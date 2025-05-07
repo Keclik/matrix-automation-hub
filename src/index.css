@@ -114,6 +114,7 @@
   .section-title {
     @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-center glow-text;
     padding-bottom: 10px;
+    padding-top: 10px;
   }
   
   .terminal-text {
