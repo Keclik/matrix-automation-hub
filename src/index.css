@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 2%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 142 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 140 84% 18%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 142 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 142 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-matrix-black text-foreground antialiased font-sans;
+    overscroll-behavior: none;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+  
+  h1, h2, h3 {
+    @apply font-bold text-shadow-sm;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+  
+  strong, b {
+    @apply font-semibold text-matrix-green;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-black bg-opacity-60 backdrop-blur-md border border-matrix-green/20 rounded-lg overflow-hidden shadow-lg;
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 10px rgba(0, 255, 65, 0.7);
+  }
+  
+  .text-shadow-sm {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  
+  .matrix-gradient {
+    background: linear-gradient(135deg, #050505 0%, #121212 100%);
+  }
+
+  .matrix-glow {
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.5);
+  }
+  
+  
+  .matrix-button {
+    @apply relative overflow-hidden bg-matrix-black border border-matrix-green text-matrix-green 
+    py-3 px-6 rounded font-mono uppercase tracking-wider transition-all duration-300
+    hover:bg-matrix-green hover:text-matrix-black hover:shadow-[0_0_20px_rgba(0,255,65,0.7)]
+    active:translate-y-1 active:shadow-none;
+  }
+
+  .matrix-button::before {
+    content: '';
+    @apply absolute inset-0 bg-matrix-green/10 opacity-0 transition-opacity duration-300;
+  }
+
+  .matrix-button:hover::before {
+    @apply opacity-100;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-matrix-green to-matrix-light-green bg-clip-text text-transparent;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-center glow-text;
+    padding-bottom: 10px;
+  }
+  
+  .terminal-text {
+    @apply font-mono text-matrix-green;
+  }
+
+  .animate-reveal {
+    @apply transition-all duration-700 ease-out;
+  }
+  
+  .card-hover-effect {
+    @apply transition-all duration-300 hover:matrix-glow hover:translate-y-[-5px] hover:border-matrix-green/40;
+  }
+  
+  .readable-section {
+    @apply relative z-10;
+  }
+  
+  .readable-section::before {
+    content: '';
+    @apply absolute inset-0 bg-matrix-black bg-opacity-70 backdrop-blur-sm -z-10 rounded-lg;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(10px); }
+  }
+  
+  .notification-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  .notification-fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 5s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 5px 1px rgba(0, 255, 65, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 15px 3px rgba(0, 255, 65, 0.5);
+    }
+  }
+  
+  .subtle-pulse-glow {
+    animation: subtle-pulse-glow 8s ease-in-out infinite;
+  }
+  
+  @keyframes subtle-pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 3px 1px rgba(0, 255, 65, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 8px 2px rgba(0, 255, 65, 0.3);
+    }
+  }
+}
