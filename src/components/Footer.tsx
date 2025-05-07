@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import GlitchText from "./GlitchText";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Mail, Instagram, Linkedin, Youtube } from "lucide-react";
 import { toast } from "sonner";
 import { useLanguage } from "./ui/language-context";
@@ -45,7 +46,6 @@ const Footer = () => {
       ],
       company: "Společnost",
       companyLinks: [
-        "Kariéra",
         "Kontakt"
       ],
       subscribe: "Odběr novinek",
@@ -125,26 +125,32 @@ const Footer = () => {
           <div className="md:col-span-1">
             <h3 className="text-white font-semibold mb-4 text-lg glow-text">{t.solutions}</h3>
             <ul className="space-y-2">
-              {t.solutionsList.map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
+              <li>
+                <a href="/ai-automatizace" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">
+                  {t.solutionsList[0]}
+                </a>
+              </li>
+              <li>
+                <a href="/ai-agents" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">
+                  {t.solutionsList[1]}
+                </a>
+              </li>
+              <li>  
+                <a href="/ai-training" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">
+                  {t.solutionsList[2]}
+                </a>
+              </li>        
+            </ul> 
           </div>
           
           <div className="md:col-span-1">
             <h3 className="text-white font-semibold mb-4 text-lg glow-text">{t.company}</h3>
             <ul className="space-y-2">
-              {t.companyLinks.map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="mailto:info@expandmatrix.com" className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300">  
+                  {t.companyLinks[0]}
+                </a>
+              </li>
             </ul>
           </div>
           
