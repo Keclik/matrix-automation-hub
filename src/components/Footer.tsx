@@ -190,9 +190,21 @@ const Footer = () => {
               &copy; {currentYear} Expand Matrix. {t.rightsReserved}
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300">{t.privacyPolicy}</a>
-              <a href="#" className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300">{t.termsOfService}</a>
-              <a href="#" className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300">{t.cookiePolicy}</a>
+              <a 
+                href="/ExpandMatrix_PrivacyPolicy.pdf"
+                download
+                className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300"
+              >{t.privacyPolicy}</a>
+              <a href="/ExpandMatrix_TermsOfService.pdf"
+                download
+                className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300">
+                {t.termsOfService}
+                </a>
+              <a href="/ExpandMatrix_CookiesPolicy.pdf"
+                download
+                className="text-matrix-green hover:text-matrix-light-green text-sm transition-colors duration-300">
+                {t.cookiePolicy}
+                </a>
             </div>
           </div>
         </div>

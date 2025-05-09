@@ -133,9 +133,14 @@ const Community = () => {
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-[#9b87f5] hover:bg-[#7E69AB] text-black font-medium">
-              {t.freePlan.buttonText}
-            </Button>
+            <a
+              href="https://whop.com/expandmatrix-academy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative z-10 w-full inline-flex justify-center items-center px-4 py-2 rounded-md bg-[#9b87f5] hover:bg-[#7E69AB] text-black font-medium text-center"
+              >
+                {t.freePlan.buttonText}
+            </a>
           </CardFooter>
         </Card>
 
@@ -157,9 +162,14 @@ const Community = () => {
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-matrix-green hover:bg-matrix-light-green text-black font-medium">
+            <a
+              href="https://whop.com/em-premium-academy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative z-10 w-full inline-flex justify-center items-center px-4 py-2 rounded-md bg-matrix-green hover:!bg-[#9b87f5] text-black font-medium text-center"
+              >
               {t.premiumPlan.buttonText}
-            </Button>
+            </a>  
           </CardFooter>
         </Card>
       </div>

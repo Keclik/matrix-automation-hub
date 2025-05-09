@@ -30,7 +30,7 @@ const BookingButton = ({
 
   const handleClick = () => {
     // Open booking link or modal
-    window.open("https://calendly.com/expandmatrix/call", "_blank");
+    window.open("https://calendly.com/expandmatrix/45min", "_blank");
     if (onClick) onClick();
   };
 
