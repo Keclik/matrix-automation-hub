@@ -86,7 +86,7 @@ const Index = () => {
       <HowItWorks />
       {/*showTestimonials && <Testimonials />*/}
       <FAQ />
-      <Community />
+      {language !== "en" && <Community />}
       <CTASection />
       
       {notification && (

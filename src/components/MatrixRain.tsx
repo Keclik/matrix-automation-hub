@@ -62,7 +62,7 @@ const MatrixRain = ({ opacity = 0.05 }: MatrixRainProps) => {
           drops[i] = 0;
         }
         // Slowed down drop speed
-        drops[i] += 0.8;
+        drops[i] += 0.7;
       }
     };
 

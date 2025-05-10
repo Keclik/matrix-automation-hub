@@ -116,29 +116,29 @@ const HowItWorks = () => {
     en: [
       {
         number: 1,
-        title: "Book a Call",
-        description: "Schedule a strategy call with our AI experts to discuss your needs and challenges.",
+        title: "Book a Strategy Call",
+        description: "Meet with our AI experts to explore your business needs, goals, and automation opportunities.",
         icon: Calendar,
         delay: 0,
       },
       {
         number: 2,
-        title: "Get a Custom AI Plan",
-        description: "We'll develop a tailored AI strategy specific to your business requirements.",
+        title: "Receive a Tailored AI Plan",
+        description: "We will design a custom AI strategy aligned with your objectives, challenges, and industry.",
         icon: FileText,
         delay: 200,
       },
       {
         number: 3,
-        title: "AI Built & Deployed",
-        description: "Our team builds and implements your custom AI solution, ensuring seamless integration.",
+        title: "AI Solution Built & Launched",
+        description: "Our team develops, tests, and deploys your AI solution for a seamless integration.",
         icon: Cpu,
         delay: 400,
       },
       {
         number: 4,
-        title: "Automate & Scale Effortlessly",
-        description: "Watch your business transform as your AI solution drives efficiency and growth.",
+        title: "Accelerate & Scale Effortlessly",
+        description: "Experience measurable improvements as your AI solution boosts efficiency, reduces costs, and drives growth.",
         icon: TrendingUp,
         delay: 600,
       },
@@ -146,7 +146,7 @@ const HowItWorks = () => {
     cs: [
       {
         number: 1,
-        title: "Rezervujte si hovor",
+        title: "Rezervujte si strategický hovor",
         description: "Naplánujte si strategický hovor s našimi AI experty a proberte své potřeby a výzvy.",
         icon: Calendar,
         delay: 0,
@@ -154,21 +154,21 @@ const HowItWorks = () => {
       {
         number: 2,
         title: "Získejte přizpůsobený AI plán",
-        description: "Vytvoříme AI strategii na míru podle požadavků vašeho podnikání.",
+        description: "Navrhneme strategii umělé inteligence přizpůsobenou vašim cílům, výzvám i oboru.",
         icon: FileText,
         delay: 200,
       },
       {
         number: 3,
-        title: "AI vytvořeno a nasazeno",
-        description: "Náš tým postaví a implementuje vaše AI řešení na míru s bezproblémovou integrací.",
+        title: "Vývoj a nasazení AI řešení",
+        description: "Náš tým vyvine, otestuje a nasadí AI řešení tak, aby hladce zapadlo do vašich procesů.",
         icon: Cpu,
         delay: 400,
       },
       {
         number: 4,
-        title: "Automatizujte a rostěte bez námahy",
-        description: "Sledujte, jak se vaše podnikání transformuje, když vaše AI řešení zvyšuje efektivitu a růst.",
+        title: "Zrychlete růst a škálujte bez námahy",
+        description: "Zažijte měřitelné zlepšení – vaše AI řešení zvýší efektivitu, sníží náklady a podpoří růst.",
         icon: TrendingUp,
         delay: 600,
       },
@@ -181,12 +181,12 @@ const HowItWorks = () => {
     en: {
       process: "THE PROCESS",
       title: "How It Works",
-      description: "Our streamlined process ensures you get the perfect AI solution for your business with minimal friction."
+      description: "Our proven process ensures you get the right AI solution for your business – fast, seamless, and tailored."
     },
     cs: {
       process: "PROCES",
       title: "Jak to funguje",
-      description: "Náš zjednodušený proces zajišťuje, že získáte dokonalé AI řešení pro vaše podnikání s minimálním třením."
+      description: "Ověřený proces, který zajistí ideální AI řešení pro vaše podnikání – rychle, hladce a na míru."
     }
   };
 

@@ -13,7 +13,7 @@ const Footer = () => {
 
   const translations = {
     en: {
-      companyDescription: "Transforming businesses through cutting-edge AI automation and intelligent agents.",
+      companyDescription: "Transforming businesses with advanced AI automation and smart agents – for efficiency, growth, and competitive advantage.",
       solutions: "Solutions",
       solutionsList: [
         "AI Automation",
@@ -22,7 +22,6 @@ const Footer = () => {
       ],
       company: "Company",
       companyLinks: [
-        "Careers",
         "Contact"
       ],
       subscribe: "Subscribe",
@@ -37,7 +36,7 @@ const Footer = () => {
       cookiePolicy: "Cookie Policy"
     },
     cs: {
-      companyDescription: "Transformujeme podniky pomocí špičkové AI automatizace a inteligentních agentů.",
+      companyDescription: "Transformujeme podnikání s pomocí špičkové AI automatizace a chytrých agentů – pro efektivitu, růst a konkurenční náskok.",
       solutions: "Řešení",
       solutionsList: [
         "AI Automatizace",

@@ -7,7 +7,7 @@ const BenefitCard = ({
   title, 
   description, 
   icon: Icon, 
-  delay 
+  delay
 }: { 
   title: string; 
   description: string; 
@@ -108,26 +108,26 @@ const WhyAutomate = () => {
   const benefits = language === 'cs' ? [
     {
       title: "Zvýšení příjmů",
-      description: "Díky automatizaci oslovíte více zákazníků, personalizujete komunikaci a proměníte více kontaktů na platící klienty – a to bez nutnosti většího týmu.",
+      description: "Oslovte více zákazníků, personalizujte komunikaci a proměňte více leadů v platící klienty – a to bez potřeby rozšiřování týmu.",
       icon: TrendingUp,
       delay: 0,
     },
     {
       title: "Zvýšení efektivity",
-      description: "Automatizace ušetří až 80 % času stráveného zákaznickou péčí a snižuje náklady. Investujte ušetřený čas i peníze do růstu svého podnikání.",
+      description: "Ušetřete až 90 % času stráveného zákaznickou péčí a snižte náklady. Ušetřený čas i peníze investujte do růstu svého podnikání.",
       icon: Clock,
       delay: 200,
     },
     {
-      title: "Spokojenost zákazníků",
-      description: "Poskytněte zákazníkům okamžité odpovědi 24/7 napříč platformami. Zákazníci se budou cítit oceněni díky rychlé a dostupné podpoře.",
+      title: "Vyšší Spokojenost zákazníků",
+      description: "Poskytněte zákazníkům okamžité odpovědi 24/7 napříč platformami. Díky rychlé a dostupné podpoře se budou cítit ocenění.",
       icon: Users,
       delay: 400,
     },
   ] : [
     {
       title: "Increased Revenue",
-      description: "Through automation, you'll reach more customers, personalize communications, and convert more contacts into paying clients – all without needing a larger team.",
+      description: "Reach more customers, personalize communication, and convert more leads into paying clients – all without needing a bigger team.",
       icon: TrendingUp,
       delay: 0,
     },
@@ -158,12 +158,12 @@ const WhyAutomate = () => {
           </span>
         </div>
         <h2 className="section-title text-gradient">
-          {language === 'cs' ? 'Výhody automatizace' : 'Benefits of Automation'}
+          {language === 'cs' ? 'Proč využít AI ve vašem podnikání' : 'Why Use AI in Your Business'}
         </h2>
         <p className="text-center text-gray-300 max-w-3xl mx-auto text-lg font-medium drop-shadow-lg">
           {language === 'cs' 
-            ? 'Automatizace s využitím AI může dramaticky změnit způsob, jakým podnikáte a komunikujete se zákazníky.'
-            : 'AI-powered automation can dramatically change how you do business and communicate with customers.'}
+            ? 'Umělá inteligence může zásadně změnit způsob, jakým podnikáte a komunikujete se zákazníky.'
+            : 'AI automation can dramatically transform the way you operate and communicate with customers.'}
         </p>
       </div>
       

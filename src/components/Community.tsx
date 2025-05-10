@@ -9,6 +9,7 @@ const Community = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const { language } = useLanguage();
+  
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -64,30 +65,29 @@ const Community = () => {
     cs: {
       title: "AI DISCORD KOMUNITA",
       heading: "Expand Matrix Academy",
-      description: "Připojte se k naší AI komunitě a získejte přístup ke vzdělávacím materiálům, prémiovým AI nástrojům a spojte se s lidmi, kteří sdílejí vaši vášeň pro využívání AI technologií.",
+      description: "Staňte se součástí AI komunity, která vám otevře cestu k exkluzivním materiálům, prémiovým nástrojům a praktickým znalostem – od základů po pokročilé AI automatizace.",
       freePlan: {
         title: "EM Academy",
-        subtitle: "Zdarma",
+        subtitle: "ZDARMA – pro začínající i pokročilé",
         benefits: [
-          "Podporující AI komunita",
-          "Úvodní AI Masterclass zdarma",
-          "Základní šablony připravené k použití",
-          "Ukázky stavby AI agentů",
-          "AI novinky, články a doporučení"
+          "Podporující AI komunita (∞ Kč)",
+          "Úvodní AI Masterclass zdarma (22 894 Kč)",
+          "Základní šablony připravené k použití (76 867 Kč)",
+          "Ukázky stavby AI agentů (15 421 Kč)",
+          "AI novinky, články a doporučení (5436 Kč)"
         ],
-        buttonText: "Připojit se zdarma"
+        buttonText: "Vstoupit ZDARMA"
       },
       premiumPlan: {
         title: "EM Premium Academy",
-        subtitle: "Placená část",
+        subtitle: "Pouze 997 Kč/měsíc",
         benefits: [
-          "+100 prémiových AI šablon",
-          "Individuální přístup",
-          "Týdenní live hovory a záznamy",
-          "Exkluzivní tipy na AI nástroje a integrace",
-          "Make.com zdarma"
-        ],
-        buttonText: "Zjistit více"
+          "+70 prémiových AI šablon (351 426 Kč)" ,
+          "Individuální přístup (∞ Kč)",
+          "Týdenní live hovory a záznamy (32 169 Kč)",
+          "Exkluzivní tipy na AI nástroje a integrace (23 672 Kč)",
+          "Make.com zdarma (14 106 Kč)"        ],
+        buttonText: "Vstoupit do Premium Academy"
       }
     }
   };

@@ -10,13 +10,15 @@ const ServicesCard = ({
   description, 
   icon: Icon, 
   delay,
-  linkTo 
+  linkTo,
+  language 
 }: { 
   title: string; 
   description: string; 
   icon: React.ElementType; 
   delay: number;
   linkTo: string;
+  language: string;
 }) => {
   const [isRevealed, setIsRevealed] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -86,7 +88,7 @@ const ServicesCard = ({
             to={linkTo} 
             className="text-matrix-green hover:text-matrix-light-green transition-colors duration-300 inline-flex items-center gap-2 glow-text"
           >
-            Learn more
+            {language === "cs" ? "Zjistit více" : "Learn more"}
             <svg 
               className={`w-5 h-5 transition-all duration-300 ${isHovered ? "translate-x-1" : ""}`}
               fill="none" 
@@ -136,10 +138,10 @@ const Services = () => {
 
   const services = [
     {
-      title: language === 'cs' ? "AI Automatizace Byznysu" : "AI Business Automation",
+      title: language === 'cs' ? "AI Automatizace" : "AI Automation",
       description: language === 'cs' 
-        ? "Zjednodušte své podnikání pomocí vlastní AI automatizace, která zvládá opakující se úkoly a pracovní postupy, což vašemu týmu umožní soustředit se na to nejdůležitější."
-        : "Streamline your operations with custom AI automation that handles repetitive tasks and workflows, freeing your team to focus on what matters most.",
+        ? "Zjednodušte své podnikání pomocí AI automatizace, která za vás převezme opakující se úkoly, procesy i rutiny. Šetřete čas, snižte náklady a soustřeďte se na to, co je pro vás nejdůležitější."
+        : "Streamline your business operations with AI automation that takes over repetitive tasks, processes, and routines. Save time, reduce costs, and focus on what truly matters to you.",
       icon: Server,
       delay: 0,
       linkTo: "/ai-automatizace"
@@ -147,8 +149,8 @@ const Services = () => {
     {
       title: language === 'cs' ? "AI Agenti" : "AI Agents",
       description: language === 'cs'
-        ? "Nasaďte inteligentní AI agenty vyškolené speciálně pro potřeby vašeho podnikání, schopné rozhodovat a jednat s minimálním lidským dohledem."
-        : "Deploy intelligent AI agents trained specifically for your business needs, capable of making decisions and taking actions with minimal human oversight.",
+        ? "Objevte sílu inteligentních AI agentů, kteří se přizpůsobí potřebám vašeho byznysu. Efektivně rozhodují, jednají s minimálním dohledem a pomáhají vám škálovat bez nutnosti najímání dalších zaměstnanců."
+        : "Discover the power of intelligent AI agents tailored to your business needs. They make smart decisions, operate with minimal supervision, and help you scale without the need for additional hires.",
       icon: Brain,
       delay: 200,
       linkTo: "/ai-agents"
@@ -156,8 +158,8 @@ const Services = () => {
     {
       title: language === 'cs' ? "AI Školení" : "AI Training",
       description: language === 'cs'
-        ? "Vzdělávejte svůj tým v oblasti využívání moderních AI technologií a nástrojů pro zefektivnění práce a posílení konkurenční výhody."
-        : "Educate your team on using modern AI technologies and tools to streamline work and strengthen competitive advantage.",
+        ? "Vzdělávejte sebe i svůj tým s našimi odbornými AI školeními. Získejte praktické znalosti, naučte se moderní AI nástroje a proměňte technologie v konkurenční výhodu."
+        : "Empower yourself and your team with our expert AI training. Gain practical knowledge, master modern AI tools, and turn technology into your competitive advantage.",
       icon: Code,
       delay: 400,
       linkTo: "/ai-training"
@@ -195,6 +197,7 @@ const Services = () => {
             icon={service.icon}
             delay={service.delay}
             linkTo={service.linkTo}
+            language={language}
           />
         ))}
       </div>

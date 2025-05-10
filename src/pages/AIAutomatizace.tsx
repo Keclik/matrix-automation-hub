@@ -52,24 +52,24 @@ const AIAutomatizace = () => {
 
   const translations = {
     en: {
-      title: "AI Business Automation",
-      subtitle: "Streamline your operations with custom AI automation that handles repetitive tasks and workflows, freeing your team to focus on what matters most.",
-      benefitsTitle: "Key Benefits of AI Automation",
-      benefitsSubtitle: "Our AI solutions transform how businesses operate by automating routine processes",
+      title: "AI Automation",
+      subtitle: "Automate repetitive tasks and free your team’s capacity to focus on what truly matters – growth, innovation, and strategy.",
+      benefitsTitle: "Why use AI Automation",
+      benefitsSubtitle: "Our AI solutions transform the way your business works – by automating routine tasks, freeing time, and boosting efficiency.",
       benefits: [
         {
           title: "Automation & Efficiency",
-          description: "Our AI solutions automate orders, reservations, and answer questions, saving time for both customers and employees. Increase your team's productivity and efficiency.",
+          description: "AI automation accelerates processes, eliminates repetitive tasks, and frees up your team’s capacity for strategic work. Boost your overall business productivity and efficiency.",
           icon: Clock
         },
         {
           title: "Personalized Support",
-          description: "Provide personalized 24/7 consultations. Quick responses to questions and problems improve customer experience and increase satisfaction, leading to higher loyalty and sales.",
+          description: "Provide customers with personalized 24/7 support, enhance customer experience, and strengthen trust and loyalty.",
           icon: MessageCircle
         },
         {
           title: "Flexibility & Growth",
-          description: "AI solutions easily integrate into various industries. They adapt to your needs and support business growth, whether you're a small or large company, keeping you a step ahead of competition.",
+          description: "AI solutions adapt to the specific needs of your industry, enabling you to scale your business without unnecessary costs. Stay flexible and one step ahead.",
           icon: ArrowRight
         }
       ],
@@ -98,24 +98,24 @@ const AIAutomatizace = () => {
       sendMessage: "Send a message"
     },
     cs: {
-      title: "AI Automatizace Byznysu",
-      subtitle: "Zjednodušte své podnikání pomocí vlastní AI automatizace, která zvládá opakující se úkoly a pracovní postupy, což vašemu týmu umožní soustředit se na to nejdůležitější.",
-      benefitsTitle: "Hlavní benefity AI automatizace",
+      title: "AI Automatizace",
+      subtitle: "Automatizujte opakující se úkoly a uvolněte kapacity vašeho týmu pro to, co je opravdu důležité – růst, inovace a strategie.",
+      benefitsTitle: "Proč využít AI automatizaci",
       benefitsSubtitle: "Naše AI řešení transformují způsob fungování firem automatizací rutinních procesů",
       benefits: [
         {
           title: "Automatizace a efektivita",
-          description: "Naši AI chatboti automatizují objednávky, rezervace a odpovědí na dotazy, čímž šetří čas zákazníkům i zaměstnancům. Zvyšte tak produktivitu a efektivitu vašeho týmu.",
+          description: "AI automatizace zrychluje procesy, eliminuje rutinní úkoly a uvolňuje kapacity týmu pro strategickou práci. Zvýšíte tak celkovou efektivitu a produktivitu podniku.",
           icon: Clock
         },
         {
           title: "Personalizovaná podpora",
-          description: "Poskytujte personalizované poradenství 24/7. Rychlá reakce na dotazy a problémy zlepšuje zákaznickou zkušenost a zvyšuje spokojenost, což vede k vyšší loajalitě a prodeji.",
+          description: "Díky AI můžete nabídnout individuální přístup zákazníkům 24/7, zlepšit zákaznickou zkušenost a posílit důvěru i loajalitu.",
           icon: MessageCircle
         },
         {
           title: "Flexibilita a růst",
-          description: "AI chatboti se snadno integrují do různých odvětví. Přizpůsobí se vašim potřebám a podpoří růst firmy, ať už jste malá nebo velká firma, což vás udrží o krok před konkurencí.",
+          description: "AI řešení se přizpůsobí specifickým potřebám vašeho odvětví a umožní škálovat podnikání bez zbytečných nákladů. Zůstaňte flexibilní a o krok napřed.",
           icon: ArrowRight
         }
       ],

@@ -75,14 +75,14 @@ const FAQ = () => {
     en: {
       questionsAnswers: "QUESTIONS & ANSWERS",
       faqHeading: "Frequently Asked Questions",
-      getAnswers: "Get answers to common questions about our AI solutions and implementation process.",
+      getAnswers: "Find answers to common questions about our AI solutions and implementation process.",
       moreQuestions: "Have more questions? We're here to help.",
       contactSupport: "Contact our support team"
     },
     cs: {
       questionsAnswers: "OTÁZKY & ODPOVĚDI",
       faqHeading: "Často kladené otázky",
-      getAnswers: "Získejte odpovědi na běžné otázky o našich AI řešeních a procesu implementace.",
+      getAnswers: "Získejte odpovědi na nejčastější dotazy o našich AI řešeních a implementaci.",
       moreQuestions: "Máte další otázky? Jsme tu, abychom vám pomohli.",
       contactSupport: "Kontaktujte náš tým podpory"
     }
@@ -114,36 +114,36 @@ const FAQ = () => {
       question: language === 'en' ? "What types of businesses can benefit from your AI automation?" : 
                                    "Jaké typy podniků mohou těžit z vaší AI automatizace?",
       answer: language === 'en' ? 
-        "Virtually any business can benefit from our AI solutions. We've worked with e-commerce companies, SaaS platforms, healthcare providers, financial services, manufacturing firms, and many others. Our approach is to understand your specific challenges and build custom AI solutions that address your unique needs." : 
-        "Prakticky jakýkoliv podnik může těžit z našich AI řešení. Spolupracovali jsme s e-commerce společnostmi, SaaS platformami, poskytovateli zdravotní péče, finančními službami, výrobními firmami a mnoha dalšími. Náš přístup spočívá v pochopení vašich specifických výzev a vytvoření vlastních AI řešení, která řeší vaše jedinečné potřeby."
+        "Our AI solutions support e-commerce companies, SaaS platforms, healthcare providers, financial services, manufacturers, and more. We tailor each solution to your unique needs and challenges." : 
+        "Naše AI řešení pomáhají e-commerce firmám, SaaS platformám, poskytovatelům zdravotní péče, finančním službám, výrobním podnikům a mnoha dalším. Přizpůsobujeme je vašim jedinečným potřebám a výzvám."
     },
     {
       question: language === 'en' ? "How long does it take to implement an AI solution?" : 
                                    "Jak dlouho trvá implementace AI řešení?",
       answer: language === 'en' ? 
-        "Implementation timelines vary based on the complexity of your requirements. Simple automations can be deployed in as little as 2-4 weeks, while more complex AI agents might take 6-12 weeks. During our initial strategy call, we'll provide a clearer timeline based on your specific project scope." : 
-        "Časové rámce implementace se liší v závislosti na složitosti vašich požadavků. Jednoduché automatizace lze nasadit již za 2-4 týdny, zatímco složitější AI agenti mohou trvat 6-12 týdnů. Během našeho úvodního strategického hovoru vám poskytneme jasnější časový harmonogram na základě konkrétního rozsahu vašeho projektu."
+        "Implementation time depends on complexity. Simple automations can be deployed in 2–4 weeks, while advanced AI agents may take 6–12 weeks. We provide a detailed timeline after your initial consultation." : 
+        "Doba implementace závisí na složitosti. Jednoduché automatizace nasazujeme za 2–4 týdny, pokročilejší AI agenti vyžadují 6–12 týdnů. Přesný harmonogram vám poskytneme po úvodní konzultaci."
     },
     {
       question: language === 'en' ? "Do I need technical expertise to use your AI solutions?" : 
                                    "Potřebuji technické znalosti k používání vašich AI řešení?",
       answer: language === 'en' ? 
-        "Not at all. We design our AI solutions to be user-friendly and intuitive. Our team handles all the technical aspects of development and implementation. We'll provide training and support to ensure your team can effectively utilize the AI tools we build, regardless of their technical background." : 
-        "Vůbec ne. Naše AI řešení navrhujeme tak, aby byla uživatelsky přívětivá a intuitivní. Náš tým se stará o všechny technické aspekty vývoje a implementace. Poskytneme školení a podporu, abychom zajistili, že váš tým může efektivně využívat AI nástroje, které vytvoříme, bez ohledu na jejich technické zázemí."
+        "No. Our solutions are designed to be user-friendly and intuitive. Our team handles all technical aspects. We provide training and support so your team can effectively use the AI tools we build." : 
+        "Ne. Naše řešení jsou navržena uživatelsky přívětivě a intuitivně. Technické aspekty zajistí náš tým. Poskytujeme školení a podporu, aby vaše firma mohla AI snadno využívat."
     },
     {
-      question: language === 'en' ? "What kind of ROI can I expect from implementing AI automation?" : 
-                                   "Jaký ROI mohu očekávat od implementace AI automatizace?",
+      question: language === 'en' ? "What systems and tools do you use?" : 
+                                   "Jaké systémy a nástroje používáte?",
       answer: language === 'en' ? 
-        "Our clients typically see ROI in three key areas: time savings (automating tasks that previously took hours), cost reduction (lowering operational expenses), and revenue growth (improving customer experience and enabling scaling). Many clients report 300%+ ROI within the first year, with some achieving payback periods as short as 2-3 months." : 
-        "Naši klienti obvykle vidí ROI ve třech klíčových oblastech: úspora času (automatizace úkolů, které dříve trvaly hodiny), snížení nákladů (snížení provozních výdajů) a růst příjmů (zlepšení zákaznické zkušenosti a umožnění škálování). Mnoho klientů hlásí 300%+ ROI během prvního roku, přičemž někteří dosahují návratnosti investic již za 2-3 měsíce."
+        "We work with trusted platforms like n8n, Make.com, Zapier, and others. We select the best tools based on your needs to ensure efficient integration and automation." : 
+        "Pracujeme s osvědčenými platformami jako n8n, Make.com, Zapier a dalšími. Vybíráme nástroje na základě vašich potřeb, aby integrace a automatizace byla co nejefektivnější."
     },
     {
       question: language === 'en' ? "How do you ensure the security and privacy of our data?" : 
                                    "Jak zajišťujete bezpečnost a soukromí našich dat?",
       answer: language === 'en' ? 
-        "Security is paramount in our implementation process. We follow industry best practices for data encryption, access controls, and compliance with regulations like GDPR and CCPA. All AI solutions are built with privacy by design principles, and we can work within your existing security infrastructure." : 
-        "Bezpečnost je prvořadá v našem implementačním procesu. Dodržujeme osvědčené postupy v oblasti šifrování dat, kontroly přístupu a dodržování předpisů jako GDPR a CCPA. Všechna AI řešení jsou vytvořena s principy ochrany soukromí již od návrhu a můžeme pracovat v rámci vaší stávající bezpečnostní infrastruktury."
+        "Security is a top priority. We follow best practices in data encryption, access control, and comply with regulations like GDPR and CCPA. Our solutions are built with privacy protection from the ground up." : 
+        "Bezpečnost je pro nás prioritou. Dodržujeme standardy šifrování dat, přístupu a předpisy jako GDPR a CCPA. Naše řešení jsou od začátku navržena s důrazem na ochranu soukromí."
     }
   ];
 

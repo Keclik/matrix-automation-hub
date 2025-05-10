@@ -45,10 +45,10 @@ const NavBar = () => {
         { name: language === 'en' ? "AI Training" : "AI Školení", href: "/ai-training" },
       ]
     },
-    { name: language === 'en' ? "Why Automate?" : "Proč automatizovat?", href: "#why-automate" },
-    { name: language === 'en' ? "P" : "Proces", href: "#how-it-works" },
+    { name: language === 'en' ? "Why Use AI?" : "Proč využít AI?", href: "#why-automate" },
+    { name: language === 'en' ? "Process" : "Proces", href: "#how-it-works" },
     { name: language === 'en' ? "FAQ" : "Časté otázky", href: "#faq" },
-    { name: language === 'en' ? "Community" : "Komunita", href: "#community" },
+    { name: language === 'en' ? "" : "Komunita", href: "#community" },
   ];
 
   const closeMenu = () => {

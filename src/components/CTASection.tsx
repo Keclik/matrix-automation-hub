@@ -72,25 +72,25 @@ const CTASection = () => {
   const translations = {
     en: {
       limitedTimeOffer: "LIMITED TIME OFFER",
-      readyToTransform: "Ready to Transform Your Business with AI?",
-      highDemand: "Due to high demand, we can only take a limited number of new clients each week. Schedule your free AI strategy call now.",
+      readyToTransform: "Ready to Elevate Your Business with AI?",
+      highDemand: "Demand is high – we can only onboard a few new clients each week. Secure your spot with a free AI strategy call.",
       specialOffer: "Special offer expires in:",
       days: "Days",
       hours: "Hours",
       minutes: "Minutes",
       seconds: "Seconds",
-      noObligation: "No obligation, cancel anytime. Limited spots available."
+      noObligation: "No risk, no obligation. Cancel anytime. Limited availability."
     },
     cs: {
       limitedTimeOffer: "ČASOVĚ OMEZENÁ NABÍDKA",
-      readyToTransform: "Připraveni transformovat Vaše podnikání pomocí AI?",
-      highDemand: "Vzhledem k vysoké poptávce, můžeme přijmout pouze omezený počet nových klientů každý týden. Naplánujte si svůj bezplatný AI strategický hovor nyní.",
+      readyToTransform: "Připraveni posunout své podnikání s AI?",
+      highDemand: "Zájem je vysoký – každý týden přijímáme jen omezený počet nových klientů. Zajistěte si místo zdarma na strategickém AI hovoru.",
       specialOffer: "Speciální nabídka vyprší za:",
       days: "Dny",
       hours: "Hodiny",
       minutes: "Minuty",
       seconds: "Sekundy",
-      noObligation: "Bez závazků, zrušení kdykoli. K dispozici omezený počet míst."
+      noObligation: "Bez závazků, možnost zrušení kdykoli. Místa jsou omezená."
     }
   };
 
