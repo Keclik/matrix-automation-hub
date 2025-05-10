@@ -77,19 +77,19 @@ const AIAutomatizace = () => {
       examples: [
         {
           title: "Customer Support",
-          description: "AI solutions improve customer support by immediately answering frequently asked questions, providing detailed information about products and services, solving common problems, and transferring customers to live operators when needed."
+          description: "Enhance your customer service with AI-powered chatbots and voice agents that handle FAQs, solve issues, and seamlessly transfer complex cases to human agents—providing 24/7 support and reducing workload."
         },
         {
-          title: "Product Selection Assistance",
-          description: "In online stores, AI assists with product selection, recommends items based on customer preferences, and simplifies the entire shopping process, increasing conversion rates."
+          title: "Social Media Automation",
+          description: "Leverage AI to automatically generate, schedule, and optimize engaging social media posts, captions, and hashtags—saving time, staying consistent, and boosting your online presence."
         },
         {
-          title: "Lead Generation",
-          description: "AI effectively obtains contacts of potential customers who show interest in your products or services, significantly increasing chances of closing deals and growing your business."
+          title: "Lead Generation & Qualification",
+          description: "AI identifies, qualifies, and nurtures leads automatically—saving your sales team time and increasing opportunities to close deals."
         },
         {
-          title: "Ordering & Reservations",
-          description: "AI automates the ordering and reservation process for services such as dentists, hair salons, restaurants, real estate agencies, hotels, and travel agencies, saving businesses a lot of time."
+          title: "Appointment Scheduling & Client Bookings",
+          description: "AI automates appointment scheduling and client bookings for industries like healthcare, beauty, fitness, real estate, and consulting—reducing no-shows and streamlining operations."
         }
       ],
       ctaTitle: "Let's discuss your automation needs",
@@ -123,19 +123,19 @@ const AIAutomatizace = () => {
       examples: [
         {
           title: "Zákaznická podpora",
-          description: "AI chatboti zlepšují zákaznickou podporu tím, že okamžitě odpovídají na často kladené otázky, poskytují podrobné informace o produktech a službách, řeší běžné problémy a v případě potřeby přesměrovávají zákazníky na živého operátora."
+          description: "Zvyšte úroveň zákaznického servisu díky AI chatbotům a hlasovým agentům, kteří odpovídají na časté dotazy, řeší problémy a plynule předávají složitější případy živým operátorům – poskytujte podporu 24/7 a snižte zatížení týmu."
         },
         {
-          title: "Pomoc s výběrem produktů",
-          description: "V online obchodech asistují AI chatboti při výběru produktů, doporučují zboží na základě zákaznických preferencí a zjednodušují celý nákupní proces, čímž zvyšují konverzní poměr."
+          title: "Automatizace sociálních sítí",
+          description: "Využijte AI k automatickému vytváření, plánování a optimalizaci poutavých příspěvků, popisků a hashtagů – šetřete čas, udržujte konzistenci a posilujte svou online přítomnost."
         },
         {
-          title: "Generování leadů",
-          description: "AI chatboti efektivně získávají kontakty potenciálních zákazníků, kteří projevují zájem o vaše produkty nebo služby, čímž podstatně zvyšují šance na uzavření obchodů a růst vašeho podnikání."
+          title: "Generování a kvalifikace leadů",
+          description: "AI automaticky identifikuje, kvalifikuje a pečuje o potenciální zákazníky – ušetříte čas obchodnímu týmu a zvýšíte šance na uzavření obchodu."
         },
         {
-          title: "Objednávání a rezervace",
-          description: "Chatboti automatizují proces objednávání a rezervací pro služby jako zubaři, kadeřníci, restaurace, realitní kanceláře, hotely a cestovní kanceláře, čímž firmám ušetří mnoho času."
+          title: "Rezervace a plánování schůzek",
+          description: "AI automatizuje rezervace a plánování schůzek pro odvětví jako zdravotnictví, kosmetika, fitness, reality, poradenství a další – snižte počet nedostavených klientů a zefektivněte provoz."
         }
       ],
       ctaTitle: "Pojďme to spolu probrat",
@@ -150,7 +150,7 @@ const AIAutomatizace = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <div ref={heroRef} className="section-container pt-32 pb-16">
+      <div ref={heroRef} className="section-container readable-section">
         <div 
           className={`max-w-4xl mx-auto text-center transition-all duration-1000 ease-out ${
             isHeroVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -166,7 +166,7 @@ const AIAutomatizace = () => {
       </div>
 
       {/* Benefits Section */}
-      <div ref={benefitsRef} className="section-container bg-matrix-black/30">
+      <div ref={benefitsRef} className="section-container readable-section">
         <div className={`mb-12 transition-all duration-700 ease-out ${
           areBenefitsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
         }`}>

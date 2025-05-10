@@ -53,23 +53,23 @@ const AITraining = () => {
   const translations = {
     en: {
       title: "AI Training",
-      subtitle: "Educate your team on using modern AI technologies and tools to streamline work and strengthen competitive advantage.",
+      subtitle: "Equip your team with the skills to use modern AI technologies and tools—streamlining operations and boosting your competitive advantage.",
       benefitsTitle: "Key Benefits of AI Training",
-      benefitsSubtitle: "Our AI training programs empower your team with the knowledge and skills needed to leverage AI effectively",
+      benefitsSubtitle: "Our AI training empowers your team with practical skills to leverage AI effectively across your business.",
       benefits: [
         {
           title: "Increased Productivity",
-          description: "Equip your employees with AI skills to automate routine tasks, analyze data more efficiently, and focus on high-value activities that drive business growth.",
+          description: "Train your employees to automate repetitive tasks, analyze data efficiently, and focus on high-impact activities that drive growth.",
           icon: Zap
         },
         {
           title: "Future-Proof Skills",
-          description: "Stay ahead of the curve by preparing your team with the skills needed for the AI-driven future of business, ensuring long-term competitiveness.",
+          description: "Prepare your team for the AI-driven future by developing skills that ensure long-term competitiveness and adaptability.",
           icon: GraduationCap
         },
         {
           title: "Improved Collaboration",
-          description: "Foster an environment where teams collaborate with AI tools, enhancing creativity, problem-solving, and innovation across departments.",
+          description: "Empower teams to collaborate with AI tools—enhancing creativity, innovation, and problem-solving across departments.",
           icon: Users
         }
       ],
@@ -77,19 +77,19 @@ const AITraining = () => {
       examples: [
         {
           title: "AI Fundamentals Workshop",
-          description: "A comprehensive introduction to AI concepts, technologies, and applications for businesses. Perfect for teams new to AI who need to understand the basics and potential use cases."
+          description: "A comprehensive introduction to AI concepts, technologies, and applications for businesses. Ideal for teams new to AI who need to understand the basics and potential use cases."
         },
         {
           title: "Practical AI Tools Training",
-          description: "Hands-on training with today's most powerful AI tools and platforms. Learn how to integrate these tools into daily workflows for immediate productivity gains."
+          description: "Hands-on training with today’s leading AI tools and platforms. Learn how to integrate these tools into daily workflows to boost productivity immediately."
         },
         {
           title: "AI Strategy for Management",
-          description: "Specialized training for executives and managers on developing and implementing AI strategies, measuring ROI, and leading AI-enhanced teams."
+          description: "Specialized training for executives and managers on developing and implementing AI strategies, measuring ROI, and leading AI-powered teams."
         },
         {
-          title: "Custom AI Application Development",
-          description: "Advanced training for technical teams on building, deploying, and managing custom AI solutions tailored to your specific business needs."
+          title: "Developing Custom AI Applications",
+          description: "Advanced training for technical teams on building, deploying, and managing custom AI solutions tailored to your business needs"
         }
       ],
       ctaTitle: "Empower your team with AI knowledge",
@@ -99,23 +99,23 @@ const AITraining = () => {
     },
     cs: {
       title: "AI Školení",
-      subtitle: "Vzdělávejte svůj tým v oblasti využívání moderních AI technologií a nástrojů pro zefektivnění práce a posílení konkurenční výhody.",
+      subtitle: "Vybavte svůj tým dovednostmi pro využívání moderních AI technologií a nástrojů – zefektivněte provoz a získejte konkurenční výhodu.",
       benefitsTitle: "Hlavní přínosy AI školení",
-      benefitsSubtitle: "Naše vzdělávací programy v oblasti AI poskytují vašemu týmu znalosti a dovednosti potřebné k efektivnímu využívání umělé inteligence",
+      benefitsSubtitle: "Naše školení AI vybaví váš tým praktickými dovednostmi pro efektivní využití AI napříč firmou.",
       benefits: [
         {
-          title: "Zvýšená produktivita",
-          description: "Vybavte své zaměstnance dovednostmi v oblasti AI, aby mohli automatizovat rutinní úkoly, efektivněji analyzovat data a soustředit se na aktivity s vysokou hodnotou, které podporují růst podnikání.",
+          title: "Vyšší produktivita",
+          description: "Naučte zaměstnance, jak automatizovat opakující se úkoly, efektivně analyzovat data a soustředit se na klíčové aktivity podporující růst.",
           icon: Zap
         },
         {
           title: "Dovednosti pro budoucnost",
-          description: "Získejte náskok přípravou vašeho týmu na dovednosti potřebné pro budoucnost podnikání řízenou umělou inteligencí, což zajistí dlouhodobou konkurenceschopnost.",
+          description: "„Připravte svůj tým na budoucnost řízenou AI rozvojem dovedností, které zajistí dlouhodobou konkurenceschopnost a adaptabilitu",
           icon: GraduationCap
         },
         {
           title: "Lepší spolupráce",
-          description: "Vytvořte prostředí, kde týmy spolupracují s nástroji umělé inteligence, což posiluje kreativitu, řešení problémů a inovace napříč odděleními.",
+          description: "Podpořte týmy v efektivní spolupráci s AI nástroji – zvyšte kreativitu, inovace a schopnost řešit problémy napříč odděleními.",
           icon: Users
         }
       ],
@@ -123,19 +123,19 @@ const AITraining = () => {
       examples: [
         {
           title: "Workshop o základech umělé inteligence",
-          description: "Komplexní úvod do konceptů, technologií a aplikací umělé inteligence pro podniky. Ideální pro týmy nové v oblasti AI, které potřebují pochopit základy a potenciální případy použití."
+          description: "Komplexní úvod do konceptů, technologií a aplikací umělé inteligence pro firmy. Ideální pro týmy, které s AI začínají a potřebují porozumět základům a potenciálním možnostem využití."
         },
         {
           title: "Školení praktických nástrojů AI",
-          description: "Praktické školení s dnešními nejsilnějšími nástroji a platformami umělé inteligence. Naučte se, jak integrovat tyto nástroje do každodenních pracovních postupů pro okamžité zvýšení produktivity."
+          description: "Praktické školení s předními AI nástroji a platformami. Naučte se, jak tyto nástroje začlenit do každodenní práce a okamžitě zvýšit produktivitu."
         },
         {
           title: "Strategie AI pro management",
-          description: "Specializované školení pro vedoucí pracovníky a manažery o vývoji a implementaci strategií AI, měření návratnosti investic a vedení týmů posílených umělou inteligencí."
+          description: "Speciální školení pro manažery a vedoucí pracovníky o tvorbě a realizaci AI strategií, měření návratnosti investic a vedení týmů podporovaných umělou inteligencí."
         },
         {
           title: "Vývoj vlastních AI aplikací",
-          description: "Pokročilé školení pro technické týmy o vytváření, nasazování a správě vlastních řešení AI přizpůsobených vašim specifickým obchodním potřebám."
+          description: "Pokročilé školení pro technické týmy zaměřené na tvorbu, nasazení a správu vlastních AI řešení přizpůsobených konkrétním firemním potřebám."
         }
       ],
       ctaTitle: "Posílte svůj tým znalostmi v oblasti AI",
@@ -150,7 +150,7 @@ const AITraining = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <div ref={heroRef} className="section-container pt-32 pb-16">
+      <div ref={heroRef} className="section-container readable-section">
         <div 
           className={`max-w-4xl mx-auto text-center transition-all duration-1000 ease-out ${
             isHeroVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -166,7 +166,7 @@ const AITraining = () => {
       </div>
 
       {/* Benefits Section */}
-      <div ref={benefitsRef} className="section-container bg-matrix-black/30">
+      <div ref={benefitsRef} className="section-container readable-section">
         <div className={`mb-12 transition-all duration-700 ease-out ${
           areBenefitsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
         }`}>

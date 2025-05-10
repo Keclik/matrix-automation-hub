@@ -40,7 +40,7 @@ const NavBar = () => {
       href: "#services",
       isDropdown: true,
       subItems: [
-        { name: language === 'en' ? "AI Business Automation" : "AI Automatizace Byznysu", href: "/ai-automatizace" },
+        { name: language === 'en' ? "AI Automation" : "AI Automatizace", href: "/ai-automatizace" },
         { name: language === 'en' ? "AI Agents" : "AI Agenti", href: "/ai-agents" },
         { name: language === 'en' ? "AI Training" : "AI Školení", href: "/ai-training" },
       ]

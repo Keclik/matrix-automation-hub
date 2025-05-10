@@ -191,7 +191,7 @@ const HowItWorks = () => {
   };
 
   return (
-    <div id="how-it-works" className="section-container bg-matrix-black" ref={sectionRef}>
+    <div id="how-it-works" className="section-container readable-section" ref={sectionRef}>
       <div 
         className={`mb-12 transition-all duration-700 ease-out ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"

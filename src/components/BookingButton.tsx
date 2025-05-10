@@ -24,8 +24,8 @@ const BookingButton = ({
   };
 
   const buttonText = {
-    en: "BOOK YOUR AI STRATEGY CALL NOW",
-    cs: "REZERVUJTE SI AI STRATEGICKÝ HOVOR"
+    en: "BOOK YOUR FREE AI STRATEGY CALL NOW",
+    cs: "REZERVUJTE SI AI STRATEGICKÝ HOVOR ZDARMA"
   };
 
   const handleClick = () => {

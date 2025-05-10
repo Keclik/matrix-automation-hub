@@ -53,43 +53,43 @@ const AIAgents = () => {
   const translations = {
     en: {
       title: "AI Agents",
-      subtitle: "Deploy intelligent AI agents trained specifically for your business needs, capable of making decisions and taking actions with minimal human oversight.",
-      benefitsTitle: "Key Benefits of AI Agents",
-      benefitsSubtitle: "Our AI agents transform how businesses operate by automating complex decision-making processes",
+      subtitle: "Deploy intelligent AI agents tailored to your business—empowering decision-making and action with minimal human oversight.",
+      benefitsTitle: "Why use AI Agents",
+      benefitsSubtitle: "Our AI agents transform business operations by automating complex decision-making processes.",
       benefits: [
         {
-          title: "Autonomous Decision Making",
-          description: "Our AI agents can analyze data, understand context, and make decisions based on predefined parameters, freeing up human resources for more creative tasks.",
+          title: "Autonomous Decision-Making",
+          description: "AI agents analyze data, understand context, and make smart decisions—freeing human teams for higher-value work.",
           icon: Brain
         },
         {
           title: "24/7 Availability",
-          description: "Unlike human employees, AI agents can work round the clock without breaks, ensuring constant service availability for your customers and operational needs.",
+          description: "AI agents work nonstop, providing uninterrupted service for customers and operations—without breaks or downtime.",
           icon: Cpu
         },
         {
           title: "Scalable Performance",
-          description: "AI agents can handle thousands of interactions simultaneously, scaling instantly with your business needs without the traditional constraints of human staffing.",
+          description: "AI agents instantly scale to handle thousands of interactions—without the limits of human staffing.",
           icon: BarChart3
         }
       ],
       examplesTitle: "How AI Agents Work For You",
       examples: [
         {
-          title: "Sales Representatives",
-          description: "AI agents function as virtual sales representatives, qualifying leads, answering product questions, showcasing features, and guiding customers through the purchasing process without human intervention."
+          title: "Intelligent Task Routing",
+          description: "AI agents evaluate incoming tasks and automatically route them to the right team or system—improving efficiency and response times."
         },
         {
-          title: "Data Analysis & Reporting",
-          description: "Our agents continuously monitor business metrics, generate insights, create automated reports, and can even alert human team members when anomalies or opportunities are detected."
+          title: "Personalized Customer Engagement",
+          description: "AI agents monitor customer behavior and automatically trigger personalized messages or offers at the right time—boosting loyalty and retention."
         },
         {
-          title: "Customer Relationship Management",
-          description: "AI agents can track customer interactions across channels, personalize communication based on history and preferences, and proactively engage with customers at optimal times."
+          title: "Database Management and Reporting",
+          description: "Our AI agents continuously monitor business metrics, generate insights and automated reports, notify the team of anomalies or opportunities, and automatically search and update data in the database as needed."
         },
         {
-          title: "Operations Management",
-          description: "From inventory management to supply chain optimization, AI agents can monitor systems, predict needs, and even place orders automatically based on customized business rules."
+          title: "Real-Time Monitoring & Alerts",
+          description: "AI agents monitor business systems in real-time and send alerts or take predefined actions when anomalies occur—preventing bigger issues."
         }
       ],
       ctaTitle: "Let's discuss your AI agent needs",
@@ -105,37 +105,37 @@ const AIAgents = () => {
       benefits: [
         {
           title: "Autonomní rozhodování",
-          description: "Naši AI agenti dokáží analyzovat data, porozumět kontextu a činit rozhodnutí na základě předdefinovaných parametrů, čímž uvolňují lidské zdroje pro kreativnější úkoly.",
+          description: "AI agenti analyzují data, chápou souvislosti a dělají chytrá rozhodnutí – uvolní tým pro důležitější úkoly",
           icon: Brain
         },
         {
           title: "Dostupnost 24/7",
-          description: "Na rozdíl od lidských zaměstnanců mohou AI agenti pracovat nepřetržitě bez přestávek, což zajišťuje nepřetržitou dostupnost služeb pro vaše zákazníky a provozní potřeby.",
+          description: "AI agenti pracují nepřetržitě bez přestávek – zajistí stálou podporu zákazníkům i provozu.",
           icon: Cpu
         },
         {
           title: "Škálovatelný výkon",
-          description: "AI agenti zvládnou tisíce interakcí současně a okamžitě se přizpůsobí potřebám vašeho podnikání bez tradičních omezení spojených s lidskými zdroji.",
+          description: "AI agenti zvládnou tisíce interakcí najednou – škálují okamžitě bez omezení lidských kapacit.",
           icon: BarChart3
         }
       ],
-      examplesTitle: "Jak pro vás AI agenti fungují",
+      examplesTitle: "Jak pro vás AI agenti pracují",
       examples: [
         {
-          title: "Obchodní zástupci",
-          description: "AI agenti fungují jako virtuální obchodní zástupci, kvalifikují potenciální zákazníky, odpovídají na otázky o produktech, prezentují funkce a provázejí zákazníky procesem nákupu bez nutnosti lidského zásahu."
+          title: "Inteligentní směrování úkolů",
+          description: "AI agenti vyhodnocují příchozí úkoly a automaticky je přesměrovávají na správný tým nebo systém – zvyšují efektivitu a rychlost reakce."
         },
         {
-          title: "Analýza dat a reporting",
-          description: "Naši agenti průběžně sledují obchodní metriky, generují postřehy, vytvářejí automatizované zprávy a dokonce mohou upozornit lidské členy týmu, když jsou zjištěny anomálie nebo příležitosti."
+          title: "Personalizovaná komunikace se zákazníky",
+          description: "AI agenti sledují chování zákazníků a automaticky spouštějí personalizované zprávy nebo nabídky ve správný moment – posilují loajalitu a udržení zákazníků."
         },
         {
-          title: "Řízení vztahů se zákazníky",
-          description: "AI agenti mohou sledovat interakce zákazníků napříč kanály, personalizovat komunikaci na základě historie a preferencí a aktivně komunikovat se zákazníky v optimálních časech."
+          title: "Správa dat a reportování",
+          description: "Naši AI agenti neustále monitorují obchodní metriky, vytvářejí přehledy a automatizované reporty, upozorňují na anomálie nebo nové příležitosti a zároveň dokáží automaticky vyhledávat a aktualizovat data v databázi podle aktuálních potřeb."
         },
         {
-          title: "Řízení provozu",
-          description: "Od řízení inventáře po optimalizaci dodavatelského řetězce mohou AI agenti monitorovat systémy, předvídat potřeby a dokonce automaticky zadávat objednávky na základě přizpůsobených obchodních pravidel."
+          title: "Monitorování a upozornění v reálném čase",
+          description: "AI agenti v reálném čase monitorují firemní systémy a při zjištění odchylek posílají upozornění nebo provádějí předem nastavené akce – předcházejí větším problémům."
         }
       ],
       ctaTitle: "Pojďme projednat vaše potřeby v oblasti AI agentů",
@@ -150,7 +150,7 @@ const AIAgents = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <div ref={heroRef} className="section-container pt-32 pb-16">
+      <div ref={heroRef} className="section-container readable-section">
         <div 
           className={`max-w-4xl mx-auto text-center transition-all duration-1000 ease-out ${
             isHeroVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -166,7 +166,7 @@ const AIAgents = () => {
       </div>
 
       {/* Benefits Section */}
-      <div ref={benefitsRef} className="section-container bg-matrix-black/30">
+      <div ref={benefitsRef} className="section-container readable-section">
         <div className={`mb-12 transition-all duration-700 ease-out ${
           areBenefitsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
         }`}>
