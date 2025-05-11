@@ -49,18 +49,6 @@ const Community = () => {
         ],
         buttonText: "Join Free"
       },
-      premiumPlan: {
-        title: "EM Premium Academy",
-        subtitle: "Paid option",
-        benefits: [
-          "+100 premium AI templates",
-          "Individual access",
-          "Weekly live calls and recordings",
-          "Exclusive tips on AI tools and integrations",
-          "Make.com free access"
-        ],
-        buttonText: "Learn More"
-      }
     },
     cs: {
       title: "AI DISCORD KOMUNITA",
@@ -114,11 +102,11 @@ const Community = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="flex justify-center max-w-3xl mx-auto">
         {/* Free Plan */}
-        <Card className="glass-card border border-[#9b87f5]/20 card-hover-effect overflow-hidden relative">
+        <Card className="glass-card border border-[#04f95e]/20 card-hover-effect overflow-hidden relative">
           <div className="absolute inset-0 bg-gradient-to-br from-[#9b87f5]/10 to-transparent opacity-20"></div>
-          <CardHeader className="border-b border-[#9b87f5]/20">
+          <CardHeader className="border-b border-[#04f95e]/20">
             <CardTitle className="text-2xl font-bold text-white">{t.freePlan.title}</CardTitle>
             <p className="text-gray-300">{t.freePlan.subtitle}</p>
           </CardHeader>
@@ -126,7 +114,7 @@ const Community = () => {
             <ul className="space-y-4">
               {t.freePlan.benefits.map((benefit, index) => (
                 <li key={index} className="flex items-start">
-                  <CircleCheck className="h-5 w-5 text-[#9b87f5] mr-3 flex-shrink-0" />
+                  <CircleCheck className="h-5 w-5 text-[#04f95e] mr-3 flex-shrink-0" />
                   <span className="text-gray-300">{benefit}</span>
                 </li>
               ))}
@@ -137,39 +125,10 @@ const Community = () => {
               href="https://whop.com/expandmatrix-academy/"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative z-10 w-full inline-flex justify-center items-center px-4 py-2 rounded-md bg-[#9b87f5] hover:bg-[#7E69AB] text-black font-medium text-center"
+              className="relative z-10 w-full inline-flex justify-center items-center px-4 py-2 rounded-md bg-[#04f95e] hover:bg-[#049333] text-black font-medium text-center"
               >
                 {t.freePlan.buttonText}
             </a>
-          </CardFooter>
-        </Card>
-
-        {/* Premium Plan */}
-        <Card className="glass-card border border-matrix-green/20 card-hover-effect overflow-hidden relative">
-          <div className="absolute inset-0 bg-gradient-to-br from-matrix-green/10 to-transparent opacity-20"></div>
-          <CardHeader className="border-b border-matrix-green/20">
-            <CardTitle className="text-2xl font-bold text-white">{t.premiumPlan.title}</CardTitle>
-            <p className="text-gray-300">{t.premiumPlan.subtitle}</p>
-          </CardHeader>
-          <CardContent className="pt-6 min-h-64">
-            <ul className="space-y-4">
-              {t.premiumPlan.benefits.map((benefit, index) => (
-                <li key={index} className="flex items-start">
-                  <CircleCheck className="h-5 w-5 text-matrix-green mr-3 flex-shrink-0" />
-                  <span className="text-gray-300">{benefit}</span>
-                </li>
-              ))}
-            </ul>
-          </CardContent>
-          <CardFooter>
-            <a
-              href="https://whop.com/em-premium-academy/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative z-10 w-full inline-flex justify-center items-center px-4 py-2 rounded-md bg-matrix-green hover:!bg-[#9b87f5] text-black font-medium text-center"
-              >
-              {t.premiumPlan.buttonText}
-            </a>  
           </CardFooter>
         </Card>
       </div>

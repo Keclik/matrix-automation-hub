@@ -13,12 +13,12 @@ const Hero = () => {
   const heroTexts = {
     en: [
       "> WELCOME TO EXPAND MATRIX_",
-      "> AI AUTOMATION BEYOND LIMITS_",
+      "> AI SYSTEMS BEYOND LIMITS_",
       "> YOUR FUTURE IS WAITING_"
     ],
     cs: [
       "> VÍTEJTE V EXPAND MATRIX_",
-      "> AI AUTOMATIZACE BEZ LIMITŮ_",
+      "> AI SYSTÉMY BEZ LIMITŮ_",
       "> VAŠE BUDOUCNOST ČEKÁ_"
     ]
   };
